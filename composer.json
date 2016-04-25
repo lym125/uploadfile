@@ -1,0 +1,25 @@
+{
+    "name": "lym125/uploadfile",
+    "description": "Laravel uploadfile",
+    "keywords": ["laravel", "uploadfile"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "李静",
+            "email": "lym125@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lym125\\UploadFile\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
